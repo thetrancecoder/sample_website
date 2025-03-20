@@ -2,5 +2,44 @@
   text-align: right;
 }
 .nav-spacing {
-  margin: 0 0 0 10px
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+.image-link {
+  text-decoration: none;
+}
+.header-style {
+  text-align: center; 
+  margin: 0 0 80px;
+}
+.heading-style {
+  text-align: center;
+}
+.img-spacing {
+  display: block; 
+  margin: 0 auto;
+}
+.book-div-style {
+  width: 500px; 
+  margin: 20px auto; 
+  padding: 30px; 
+  background-color: #fafafa;
+}
+.book-img-style {
+  float: left; 
+  margin: 0 40px 0 0;
+}
+.book-blockquote-style {
+  font-style: italic; 
+  font-size: 20px;
+}
+.book-span-style {
+  font-style: normal; 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #ff0000;
+}
+.styled-quote {
+  padding: 2px 20px; 
+  background: #DDD;
 }
