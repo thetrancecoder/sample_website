@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <title>HTML Tags</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none;">Moby Dick</a>
     </div>
 
     <h1>Important HTML Tags</h1>
@@ -26,6 +27,48 @@
       The tables below don't include all the HTML tags, but they do list many of the most important ones.
     </p>
 
+    <h2>Documents Tags</h2>
+
+    <div>
+      <table>
+        <tr>
+          <th><span>Tag</span></th>
+          <th><span>Name</span></th>
+          <th><span>Purpose</span></th>
+        </tr>
+        <tr>
+          <td><code>HTML</code></td>
+          <td>HTML</td>
+          <td>root element that designates the document as HTML</td>
+        </tr>
+        <tr>
+          <td><code>head</code></td>
+          <td>head</td>
+          <td>represents a collection of metadata for the document</td>
+        </tr>
+        <tr>
+          <td><code>title</code></td>
+          <td>title</td>
+          <td>defines the document's title or name that is shown in a browser's title bar or a page's tab</td>
+        </tr>
+        <tr>
+          <td><code>meta</code></td>
+          <td>meta</td>
+          <td>represents metadata that cannot be represented by other HTML meta-related elements</td>
+        </tr>
+        <tr>
+          <td><code>body</code></td>
+          <td>body</td>
+          <td>represents the content of the document</td>
+        </tr>
+        <tr>
+          <td><code>header</code></td>
+          <td>header</td>
+          <td>represents the introductory section of a page or section</td>
+        </tr>
+      </table>
+    </div>
+
     <header>
       <h2>Block Elements</h2>
     </header>
@@ -35,7 +78,7 @@
         <tr>
           <th><span>Tag</span></th>
           <th><span>Name</span></th>
-          <th><span>Purpose</span></th>
+          <th><span>Purpose</span></th>        
         </tr>
         <tr>
           <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -46,6 +89,11 @@
           <td><code>p</code></td>
           <td>paragraph</td>
           <td>include a paragraph of text</td>
+        </tr>
+        <tr>
+          <td><code>table</code></td>
+          <td>table</td>
+          <td>include a table</td>
         </tr>
         <tr>
           <td><code>tr</code></td>
@@ -64,16 +112,28 @@
         </tr>
         <tr>
           <td><code>ol</code></td>
-          <td>ordered list/td>
+          <td>ordered list</td>
           <td>make a sequential list</td>
-        </tr> <tr>
+        </tr>
+        <tr>
           <td><code>ul</code></td>
           <td>unordered list</td>
           <td>make a bulleted list</td>
-        </tr> <tr>
+        </tr>
+        <tr>
           <td><code>li</code></td>
           <td>line item</td>
           <td>make a item in a list</td>
+        </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td>division</td>
+          <td>creates an otherwise invisible block level container meant to be styled</td>
+        </tr>
+        <tr>
+          <td><code>blockquote</code></td>
+          <td>block quotation</td>
+          <td>creates an indented container for quotations</td>
         </tr>
       </table>
     </div>
@@ -102,47 +162,43 @@
           <td><code>strong</code></td>
           <td>strong</td>
           <td>make strong text</td>
-          <td>
-            <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
-          </td>
+          <td><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
           <td><strong>at least a billion people</strong></td>
         </tr>
         <tr>
           <td><code>a</code></td>
           <td>anchor</td>
           <td>make hyperlink</td>
-          <td>
-            <code>
-              &lt;a href="https://learnenough.com"&gt;Learn Enough&lt;/a&gt;
-            </code>
-          </td>
+          <td><code>&lt;a href="https://learnenough.com"&gt;Learn Enough&lt;/a&gt;</code></td>
           <td><a href="https://learnenough.com">Learn Enough</a></td>
         </tr>
         <tr>
           <td><code>img</code></td>
           <td>image</td>
           <td>include an image</td>
-          <td>
-            <code>
-              &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
-            </code>
-          </td>
+          <td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code></td>
           <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
         </tr>
         <tr>
           <td><code>code</code></td>
           <td>code</td>
           <td>make monospaced text</td>
-          <td>
-            <code>
-              &lt;code&gt;
-            </code>
-          </td>
-          <td>
-            <code>
-              code
-            </code>
-          </td>
+          <td><code>&lt;code&gt&lt;meta name="viewport" content="width=device-width"&gt;&lt;/code&gt;</code></td>
+          <td><code>&lt;meta name="viewport" content="width=device-width"&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>creates an invisible inline container otherwise meant to be styled</td>
+          <td><code>&lt;span&gt;This text is contained in a span&lt;span&gt;</code></td>
+          <td><span>This text is contained in a span</span></td>
+        </tr>
+        <tr>
+          <td><code>br</code></td>
+          <td>line break</td>
+          <td>forces a line break without creating a new structural block</td>
+          <td>HTML lives&lt;br&gt;enough to be dangerous&lt;br&gt;inside my head space</td>
+          <td>HTML lives<br>enough to be dangerous<br>inside my head space</td>
         </tr>
       </table>
     </div>
